@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color-name{
     color: darkred;
 }
-section{
+.flexiable-contenar{
     display: flex;
     margin-bottom: 100px;
 }
@@ -37,6 +40,24 @@ section{
 .back{
     background-image: url('images/tig.jpg');
     background-repeat: no-repeat;
-    background-size: 49%;
+    background-size: 30%;
     background-position: bottom;
+}
+.experiences-item{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+#border-1{
+    border-left: 10px solid blue;
+}
+#border-2{
+    border-left: 10px solid rgb(226, 51, 118);
+}
+footer p{
+    text-align: center;
 }
