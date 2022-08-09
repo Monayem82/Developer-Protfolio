@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,13 @@ section{
 }
 .top-banner{
     background-repeat: no-repeat;
+}
+.section-2{
+    
+}
+.back{
+    background-image: url('images/tig.jpg');
+    background-repeat: no-repeat;
+    background-size: 49%;
+    background-position: bottom;
 }
